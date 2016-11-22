@@ -23,7 +23,7 @@
                                     <div class="form-group inputText" id="city-input">
                                         <label for="citySelected">Cities in the USA*</label>
                                         <input id="citySelected" name="citySelected" class="form-control"  autocomplete="off" placeholder="Select a City" type="text" ng-disabled="true" ng-model="city">
-                                        <input id="city" name="city" type="hidden" ng-model="bircitySelected">
+                                        <input id="city" name="city" type="hidden" ng-model="citySelected">
                                     </div>
                                     <div class="form-group no-margin">
                                         <script id="searchbox.tpl.html" type="text/ng-template">
@@ -34,7 +34,7 @@
                                                 <ui-gmap-window show='infobox.showInfobox' coords='infobox.coords' options="map.mapOptions.windowOptions">
                                                 </ui-gmap-window>
                                                 <ui-gmap-search-box options="searchbox.options"  template="map.searchbox.template" events="map.searchbox.events" position="searchbox.position"></ui-gmap-search-box>
-                                                <ui-gmap-markers models="renaultCities" coords="'self'" fit="'true'" icon="map.icon" click="marker.click" options="window.options" control="beaconMarkers"></ui-gmap-markers>
+                                                <ui-gmap-markers models="citiesMarkers" coords="'self'" fit="'true'" icon="map.icon" click="marker.click" options="window.options" control="beaconMarkers"></ui-gmap-markers>
                                             </ui-gmap-google-map>
                                         </div>                                         
                                         <div id="listContainer"> 

@@ -231,7 +231,7 @@ header .top-nav .expand-box ul li{ display: block; float: left; clear: both; tex
 .checkbox input[type=checkbox]:checked+label:before {background: #fff; border-color: #fc3; box-shadow: none; color:#ffb300; }
 /*input[type=checkbox].checked+label:after{font-size:42px;height:30px;left:-4px;top:-16px;width:30px}*/
 .angular-google-map-container { height: 342px; }
-.angular-google-map-container #dealerLocation{left:0 !important; width: 99.9%; top: -42px !important;}
+.angular-google-map-container #cityLocation{left:0 !important; width: 99.9%; top: -42px !important;}
 .angular-google-map-container .gm-style {overflow:visible !important;top:42px !important; height: 88% !important;}
 
 
@@ -244,17 +244,17 @@ header .top-nav .expand-box ul li{ display: block; float: left; clear: both; tex
 .infowindowComoChegar {margin: 10px 0px; }
 .infowindowSelecionar {margin: 10px 0px; width:auto; display:block; text-align:center;}
 
-.infowindowSelecionar a {cursor:pointer;width:auto; display:block; color:#000000; font-weight:bold; text-decoration: none; background-color: #f9c800; background-image: -webkit-linear-gradient(#f9c800,#f7b100); background-image: linear-gradient(#f9c800,#f7b100); text-decoration: none; padding: 20px auto; line-height:2.3em; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9c800', endColorstr='#f7b100', GradientType=0); }
-.infowindowSelecionar a:hover {color:#000000; font-weight:bold; text-decoration: none; background-color: #000000; background-image: -webkit-linear-gradient(#f2c800,#f2b100); background-image: linear-gradient(#f2c800,#f2b100); text-decoration: underline; line-height:2.3em; padding: 20px auto ; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3c800', endColorstr='#f3b100', GradientType=0); }
+.infowindowSelecionar a {cursor:pointer;width:auto; display:block; color:#fff; font-weight:bold; text-decoration: none; background-color: #f9c800; background-image: -webkit-linear-gradient(red,purple); background-image: linear-gradient(red,purple); text-decoration: none; padding: 5px 20px; line-height:2.3em; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='red', endColorstr='purple', GradientType=0); }
+.infowindowSelecionar a:hover {color:#fff; font-weight:bold; text-decoration: none; background-color: #000000; background-image: -webkit-linear-gradient(purple,red); background-image: linear-gradient(purple,red); text-decoration: underline; line-height:2.3em; padding: 20px auto ; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='purple', endColorstr='red', GradientType=0); }
 
 
 
-.list-dealers-item {font-size: 1.14286em; min-height: 34px; /*border-radius: 5px;*/ box-shadow: none; cursor: pointer; margin-bottom: 2px; text-transform: none; text-align: left; /*padding: 10px 10px;*/ display:block; width:100%; height:100%; color:#000000; }
-.list-dealers-item a {display: block; background-color: #f9f9f9; /*background-color: #ff0000;*/ height: 100%; text-align: center; /*border:solid 1px;*/ min-height: 34px; border: 1px solid #d5d5d5; color:#000000; /*background-image: linear-gradient(to bottom, #f9f9f9, #e9e9e9);*/ text-align:left; padding: 10px 10px; }
-.list-dealers-item a:hover {background: #F9C800; color:#000000; height: 100%; background-image: linear-gradient(to bottom, #f9f9f9, #e9e9e9); /*background-image: linear-gradient(to bottom, #f9f9f9, #e2e2e0);*/ }
+.list-cities-item {font-size: 1.14286em; min-height: 34px; /*border-radius: 5px;*/ box-shadow: none; cursor: pointer; margin-bottom: 2px; text-transform: none; text-align: left; /*padding: 10px 10px;*/ display:block; width:100%; height:100%; color:#000000; }
+.list-cities-item a {display: block; background-color: #f9f9f9; /*background-color: #ff0000;*/ height: 100%; text-align: center; /*border:solid 1px;*/ min-height: 34px; border: 1px solid #d5d5d5; color:#000000; /*background-image: linear-gradient(to bottom, #f9f9f9, #e9e9e9);*/ text-align:left; padding: 10px 10px; }
+.list-cities-item a:hover {background: #F9C800; color:#000000; height: 100%; background-image: linear-gradient(to bottom, #f9f9f9, #e9e9e9); /*background-image: linear-gradient(to bottom, #f9f9f9, #e2e2e0);*/ }
 .diclaimer2{font-size: 1.4em; text-align:center; }
-#list-dealers{padding: 0;/* display: none;*/ }
-.list-dealers-item3>button {border-top: 1px solid #c6c7c6; color: #333; line-height: 2.875; padding: 0 17px 0 0; /*text-indent: 17px;*/ text-decoration: none; font-weight: 400; font-family: "Renault Regular",Helvetica,Arial,sans-serif; text-transform: none; }
-.list-dealers-item2{border-top: 1px solid #c6c7c6; color: #333; line-height: 2.875; padding: 0 17px 0 0; /*text-indent: 17px;*/ text-decoration: none; font-weight: 400; font-family: "Renault Regular",Helvetica,Arial,sans-serif; text-transform: none; clear: both; overflow: auto; text-align: left; }
-.dealerItemTitle {font-size: 1.3em; line-height: 1.3em; text-decoration: none; font-weight: bold; font-family: "Renault Regular",Helvetica,Arial,sans-serif; text-transform: none; padding: 0 0 0 5px; pointer-events: none; display: block; }
-.dealerItemAdress {font-size: 1.0em; line-height: 1.25; text-decoration: none; font-weight: 100; font-family: "Renault Regular",Helvetica,Arial,sans-serif; text-transform: none; padding: 0 0 0 5px; display: block; pointer-events: none; }
+#list-cities{padding: 0;/* display: none;*/ }
+.list-cities-item3>button {border-top: 1px solid #c6c7c6; color: #333; line-height: 2.875; padding: 0 17px 0 0; /*text-indent: 17px;*/ text-decoration: none; font-weight: 400; font-family: "Renault Regular",Helvetica,Arial,sans-serif; text-transform: none; }
+.list-cities-item2{border-top: 1px solid #c6c7c6; color: #333; line-height: 2.875; padding: 0 17px 0 0; /*text-indent: 17px;*/ text-decoration: none; font-weight: 400; font-family: "Renault Regular",Helvetica,Arial,sans-serif; text-transform: none; clear: both; overflow: auto; text-align: left; }
+.cityItemTitle {font-size: 1.3em; line-height: 1.3em; text-decoration: none; font-weight: bold; font-family: "Renault Regular",Helvetica,Arial,sans-serif; text-transform: none; padding: 0 0 0 5px; pointer-events: none; display: block; }
+.cityItemAdress {font-size: 1.0em; line-height: 1.25; text-decoration: none; font-weight: 100; font-family: "Renault Regular",Helvetica,Arial,sans-serif; text-transform: none; padding: 0 0 0 5px; display: block; pointer-events: none; }

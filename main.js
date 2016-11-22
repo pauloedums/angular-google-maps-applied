@@ -74,7 +74,7 @@ angular
 
                 console.log(model);
                 infowindow.close();
-                var contentModel = '<div id="infoWindowContent"><div id="firstHeading" class="infowindowTitle">' + model.city + '</div><div class="infowindowAdress">' + model.state + '</div><div class="infowindowSelecionar"><a id="selectCity">SELECIONAR</a></div></div>';
+                var contentModel = '<div id="infoWindowContent"><div id="firstHeading" class="infowindowTitle">' + model.city + '</div><div class="infowindowAdress">' + model.state + '</div><div class="infowindowSelecionar"><a id="selectCity">SELECT THIS</a></div></div>';
                 infowindow = new google.maps.InfoWindow({content: contentModel});
                 infowindow.open($scope.map, marker);
                 $scope.map.zoom = 12;
